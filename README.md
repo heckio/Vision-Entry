@@ -1,1 +1,12 @@
+GPU isn't used 
+ Used AVX 
+ Used FMA & AVX2 
+yolov3-tiny-generated
+mini_batch = 4, batch = 64, time_steps = 1, train = 1 
 
+ seen 64, trained: 32013 K-images (500 Kilo-batches_64) 
+Learning Rate: 0.001, Momentum: 0.9, Decay: 0.0005
+ Detection layer: 16 - type = 28 
+ Detection layer: 23 - type = 28 
+ If error occurs - run training with flag: -dont_show 
+If you want to train from the beginning, then use flag in the end of training command: -clear 
